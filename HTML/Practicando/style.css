@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*
+SELECTORES
+
+1. Etiquetas HTML
+*/
+
+p {
+    color: red;
+    border: 10px solid blue;
+    padding: 30px;
+
+}
+
+li {
+    font-weight: bold;
+}
+h3 {
+    padding: 30px;
+}

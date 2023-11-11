@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>    
+</head>
+<body>
+    <h1>Formulario de registro - Coding Dojo</h1>
+    <form action="">
+        <div>
+            <label for="Nombre">Nombre:* </label>
+            <input type="text" name="Nombre" id="Nombre">
+        </div>
+
+        <p>
+            <label for="Apellido">Apellido:* </label>
+            <input type="text" name="Apellido" id="Apellido">
+        </p>
+
+        <p>
+            <label for="Email">Correo Electrónico:* </label>
+            <input type="text" name="Email" id="Email">
+        </p>
+
+        <p>
+            <label for="Contraseña">Contraseña:* </label>
+            <input type="password" name="Contraseña" id="Contraseña">
+        </p>
+
+        <p>
+            <label for="Confirmacion">Confirme Contraseña:* </label>
+            <input type="password" name="Confirmacion" id="Confirmacion">
+        </p>
+
+        <div>    
+            <label for="Cumpleaños">Cumpleaños: </label>
+            <input type="date" name="Cumpleaños">
+        </div>
+
+        <p>
+            <label for="Genero">Género: </label>
+            <label>
+                <input type="radio" id="Masculino" name="genero" value="Masculino">Masculino
+            </label>
+            <label>
+                <input type="radio" id="Femenino" name="genero" value="Femenino">Femenino
+            </label> 
+            <label>
+                <input type="radio" id="Otro" name="genero" value="Otro">Otro
+            </label>
+            <label>
+                <input type="radio" id="No Especifica" name="genero" value="No Especifica">Prefiero no responder
+            </label>            
+        </p>   
+
+        <p>
+            <label for="Descripcion">Danos una breve descripción sobre ti</label>
+        </p>
+       
+        <p>        
+            <textarea name="Descripcion" id="Descripcion" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="Lenguaje">Lenguaje de Programación Favorito:</label>
+            <select id="Lenguaje" name="Lenguaje">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>            
+            </select>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" id="Actualizaciones" name="Actualizaciones">Sí, deseo recibir información periódica en mi Email.
+            </label>
+        </p>
+
+        <button type="submit" style="background-color: lightblue;">Crear Cuenta</button>
+
+    </form>    
+    
+    <footer style="margin-top: 20px;">
+        <p>* Indica un campo requerido.</p>
+        <p>&copy; Ronald Campillay Pizarro</p>
+    </footer>
+</body>
+</html>
