@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, ul, li, img, a, p {
+    border: 1px dotted red;
+}
+
+img {
+    width: 150px;
+    height: 150px;    
+}
+
+h1 {
+    background-color: red;
+    display: inline-block;
+}
+
+h2 {
+    background-color: green;
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+p {
+    width: 50%;
+    display: inline-block;
+}
+
+a {
+    /* display: block; */
+    background-color: aquamarine;
+    text-align: center;    
+    padding: 5px, 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    margin-left: 20px;
+    text-decoration: none;
+}
