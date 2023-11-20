@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search, .Agregar, .cuenta{
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.search{
+    font-weight: 900;
+    background-color: rgb(235, 233, 233);
+    color: rgb(54, 163, 54);
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid rgb(54, 163, 54);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.agregar{
+    border-radius: 50%;
+    width: 40px;
+    color: white;
+    background-color: rgb(100, 177, 177);
+    border: none;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.cuenta{
+    width: 150px;
+    background-color: #1877f2; 
+    color: white;
+    box-shadow: 5px 5px 5px rgb(136, 133, 133); 
+    border: 3px solid #1877f2; 
+    margin-top: 10px;
+    margin-left: 100px;
+}
+

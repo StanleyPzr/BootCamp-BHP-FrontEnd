@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1 {
+    font-size: 70px;
+    color: grey;
+    text-align: center;
+}
+#container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background-color: lightblue;
+    align-items: center;    
+    display: flex;
+    align-items: center;    
+    justify-content: center;   
+}
+
+#container2 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background-color: purple;
+    align-items: center;    
+    justify-content: center; 
+
+}
+
+#container3 {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background-color: wheat;
+    align-items: center;    
+    justify-content: center; 
+
+}
+
+#footer {
+    padding: 10px;
+    margin: 10px;
+}
+#dead {
+    width: 200px;
+    height: 200px;     
+    margin-right: 100px;
+}
+
+#chello {
+    width: 200px;
+    height: 200px; 
+    margin-right: 100px;
+}
+#simpson {
+    width: 200px;
+    height: 200px;  
+    margin-right: 100px;
+}
+
+#Zelda {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+#lovecraft {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+
+#robot {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+
+}
+#nick {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}
+#SW{
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+}

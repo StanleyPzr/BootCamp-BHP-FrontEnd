@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin-top: 5px;
+    font-style: italic;    
+    padding-left: 25px;   
+    
+}
+
+h1 span {
+    color: #27c5dd;
+}
+
+h2 {
+    background-color: rgb(119, 58, 119) ;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-style: normal;
+}
+
+h3 {
+
+    background-color: rgb(121, 156, 185);
+    text-align: right;
+    text-decoration: underline;
+    margin-top: 5px;
+    font-style: initial;
+    padding-right: 25px;
+}
