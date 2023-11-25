@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="GamingDojo.css">    
+    <title>GamingDojo</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1 class="nav-title">Gaming<span>DOJO</span></h1>
+            <ul class="nav-links">
+                <li>
+                    <label for="currency">Divisa:</label>
+                    <select id="currency" class="currency-selector">
+                        <option value="euro">Euro (€)</option>
+                        <option value="usd">USD ($)</option>
+                        <option value="clp">CLP ($)</option>
+                    </select>
+                </li>
+                <li><a href="#" class="active">
+                    <img src="images/cart-light.png" alt="carrito">
+                </a></li>
+                <li id="carro"><a href="#">0</a></li>
+                <li><a class="btn">
+                    <img src="images/search-light.png" alt="Buscar">
+                </a></li>
+            </ul>
+        </div>  
+    </header>
+    <main>
+        <div class="container">
+            <h1>Highlights</h1>            
+            <div class="carousel-container">
+                <div class="carousel-slide" id="slide1">
+                    <img src="images/cafe-neko.png" alt="cafe-neko">
+                </div>
+                <div class="carousel-slide" id="slide2">
+                    <img src="images/pixel-ninjas-2.png" alt="pixelninja">
+                </div>
+                <div class="carousel-slide" id="slide3">
+                    <img src="images/stonepunk.png" alt="stone">
+                </div>
+            
+                <button id="sgtBtn" onclick="changeSlide(-1)">&#9664;</button>
+                <button id="antBtn" onclick="changeSlide(1)">&#9654</button>
+            </div>
+
+            <div id="Productos">
+                <div class="Producto1">
+                    <img src="images/cafe-neko.png" alt="cafe-neko">
+                    <p>Cafe Neko: Gold Edition</p>
+                    <div id="Plataformas"><img src="images/windows.png" alt="Windows" id="Windows">                    
+                    <img src="images/apple.png" alt="Apple" id="Apple"></div>
+                    <div class="descuento">-20%</div>
+                    <p>$10.49</p>
+                    <div class="button">Buy</div>
+                </div>
+                <div class="Producto2">
+                    <img src="images/pixel-ninjas-2.png" alt="PixelNinja2" id="Pixel2">
+                    <p>Pixel Ninja 2</p>
+                    <div id="Plataformas"><img src="images/windows.png" alt="Windows">                    
+                    <img src="images/apple.png" alt="Apple" id="Apple"></div>
+                    <div class="descuento">-10%</div>
+                    <p>$7.99</p>
+                    <div class="button">Buy</div>
+                </div>
+                <div class="Producto3">
+                    <img src="images/stonepunk.png" alt="StonePunk" id="Stonepunk">
+                    <p>StonePunk 10000 BCE</p>
+                    <div id="Plataformas"><img src="images/windows.png" alt="Windows" id="Windows">
+                    <img src="images/linux.png" alt="Linux" id="linux">
+                    <img src="images/apple.png" alt="Apple" id="Apple"></div>
+                    <div class="descuento">NEW!</div>
+                    <p>$19.99</p>
+                    <div class="button">Buy</div>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">    
+                <p>&copy; Ronald Campillay Pizarro</p>
+            </div>
+        </div>
+        
+    </main>
+    
+    <script src="GamingDojo.js"></script>   
+</body>
+</html>

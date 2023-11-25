@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: #9900ff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center; 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;    
+}
+
+#Productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Producto1, .Producto2, .Producto3 {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.Producto1 img, .Producto2 img, .Producto3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Producto1 p, .Producto2 p, .Producto3 p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.Producto1 div, .Producto2 div, .Producto3 div {
+    margin-top: 10px;
+}
+
+#Plataformas {
+    display: flex;
+    width: 50px;
+    cursor: pointer;
+}
+
+.descuento {
+    display: inline-block;
+    background-color: #e44d26;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Producto1 p, .Producto2 p, .Producto3 p {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;    
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: none;
+    text-align: center;
+}
+
+.carousel-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+#sgtBtn, #antBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#sgtBtn {
+    left: 10px;
+}
+
+#antBtn {
+    right: 10px;
+}
