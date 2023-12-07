@@ -8,4 +8,8 @@
 
 *mkdir = Crear carpetas. (mkdir = Make Directory)
 
-*rmdir = Eliminar Carpetas. (rmdir = )
+*rmdir = Eliminar Carpetas. 
+
+
+
+#Esta es la asignacion "Enviar a GItHUB" de Coding Dojo.
