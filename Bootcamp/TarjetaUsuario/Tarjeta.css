@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: grey; 
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    
+}
+
+.nav-title {
+    color: white;    
+}
+.nav-links {
+    list-style: none;     
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid white;    
+    margin-top: 100px;
+}
+.btn {
+    background-color: #1877f2; 
+    color: white;
+    border: 3px solid #1877f2; 
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px white;
+}
+
+.container {
+    display: block;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 50px;      
+}
+
+.Tarjeta {   
+    border: 5px solid gray;       
+}
+
+.header {
+    background-color: #17a2b8;
+    height: 125px;
+    width: 100%;   
+}
+
+.main {
+    margin-top: 75px;
+    margin-left: 25px;
+}
+#Usuario {
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 175px;
+    padding: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.iconos {
+    width: 17px;
+}
+
+a {
+    color: #7d0781;
+}
